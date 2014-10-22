@@ -5,3 +5,8 @@ file "/tmp/chef-test2" do
   action :create
 end #file do
 
+package "unzip" do
+  action :install
+end
+
+
